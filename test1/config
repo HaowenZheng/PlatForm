@@ -1,0 +1,16 @@
+[core]
+	bare = false
+	filemode = false
+	symlinks = false
+	ignorecase = true
+	logallrefupdates = true
+[core]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = //zh-mfs-srv/ProductionFiles/halconpics/LYF/耦合平台/耦合平台版本库
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+[branch "master"]
+	merge = refs/heads/master
